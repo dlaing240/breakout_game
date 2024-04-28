@@ -4,7 +4,6 @@ from turtle import Turtle
 class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
-
         self.penup()
         self.pencolor('#94d2bd')
         self.hideturtle()
@@ -40,6 +39,3 @@ class Scoreboard(Turtle):
         self.write(f"GAME OVER", align='center', font=('Courier', 24, 'bold'))
         self.setpos(0, -30)
         self.write(f"Your final score is {self.score}", align='center', font=('Courier', 24, 'bold'))
-
-
-

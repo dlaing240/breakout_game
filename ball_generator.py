@@ -5,7 +5,7 @@ import random
 class BallGenerator:
     def __init__(self):
         self.ball_list = []
-        self.ball_speed = 10.5
+        self.ball_speed = 14
 
     def generate_balls(self, ball_num):
         for i in range(0, ball_num):
@@ -37,5 +37,6 @@ class BallGenerator:
         for ball in self.ball_list:
             ball.hideturtle()
         self.ball_list = []
-        self.ball_speed += 0.5
+        if self.ball_speed < 20:
+            self.ball_speed += 0.5
         self.generate_balls(1)
