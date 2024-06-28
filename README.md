@@ -18,7 +18,7 @@ The game features a ball, a player-controlled paddle and layers of bricks. The b
 ### Powerups:
 ![Powerups](https://github.com/dlaing240/breakout_game/assets/159714200/c62fe36f-fdf3-4e53-bd3f-f8d69f2347bc)
 
-The bricks are generated at the start of each level. Each brick has a small chance to be one of the three powerups: a 'big ball' powerup that generates a larger ball, and two 'multi-ball' powerups that generate 3 or 5 balls at once. These bricks are brightly coloured to make them stand out from the rest of the bricks. The chance for these power-up bricks is low. This is because they make the wall look ugly—and because the game would be too easy if they were common. The score increases with every broken brick, where the amount of points gained depends on which row the brick was a part of.
+The bricks are generated at the start of each level. Each brick has a small chance to be one of the three powerups: a 'big ball' powerup that generates a larger ball, and two 'multi-ball' powerups that generate 3 or 5 balls at once. These bricks are brightly coloured to make them stand out from the rest of the bricks. The chance for these power-up bricks is low. The score increases with every broken brick, where the amount of points gained depends on which row the brick was a part of.
 
 ### Game Over
 ![game-over screen_cropped](https://github.com/dlaing240/breakout_game/assets/159714200/32bd3739-f978-42b5-8c03-01d5d66ac8d2)
