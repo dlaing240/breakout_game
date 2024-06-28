@@ -24,7 +24,7 @@ The bricks are generated at the start of each level. Each brick has a small chan
 ![game-over screen_cropped](https://github.com/dlaing240/breakout_game/assets/159714200/32bd3739-f978-42b5-8c03-01d5d66ac8d2)
 
 
-There is a 'lives' system. Lives are lost whenever there are no balls left on the screen, at which point a new ball is generated, and the game ends when the player runs out of lives. The player starts with a generous 10 lives, as this was just enough to allow me to test the later levels without cheating.
+There is a 'lives' system. Lives are lost whenever there are no balls left on the screen, at which point a new ball is generated, and the game ends when the player runs out of lives. The player starts with a generous 10 lives, as this was just enough to allow me to test the later levels.
 
 ### Performance
 
